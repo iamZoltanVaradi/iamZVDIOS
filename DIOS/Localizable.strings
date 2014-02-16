@@ -1,0 +1,57 @@
+/*
+ Localizable.strings
+ 
+ Created by Zoltán Váradi on 9/19/13.
+ Copyright (c) 2013 Zoltán Váradi. All rights reserved.
+ */
+
+/**************
+ LOGIN MESSAGES
+ **************/
+
+"LoginErrorTitle" = "Login error";
+"GeneralErrorTitle" = "Error";
+"LoginErrorMessage" = "Your given username or password is incorrect.";
+"SuccessfulLogin" = "Successfully logged in";
+"SuccessfulLogout" = "Successfully logged out";
+"LogoutErrorTitle" = "Logout error";
+"Logout" = "Logout";
+"Login" = "Login";
+"NoInternet" = "It appears you’re not connected to the internet, please check your connection.";
+"GeneralLoginError" = "An error occurred during the login process. Please make sure you’re connected to the Internet and try again.";
+"GeneralError" = "An error occurred during a network request. Please make sure you’re connected to the Internet and try again.";
+"SuccessfulPSWRecoveryTitle" = "Successful password recovery";
+"SuccessfulPSWRecoveryMessage" = "An email with the password reset instructions has been sent.";
+"PSWRecoveryFailed" = "Sending you a password recovery email has failed. Please make sure you provided your valid email address and you that you are connected to the internet.";
+
+/***************************
+ REGISTRATION ERROR MESSAGES
+ **************************/
+
+"RegistrationErrorTitle" = "Registration error";
+"UserNameEmptyOrNil" = "Please enter your desired username.";
+"UserNameNil" = "You must enter a username.";
+"UserNameHasMultipleSpaces" = "The username cannot contain multiple spaces in a row.";
+"UserNameHasWhitespacePrefix" = "The username cannot begin with a space.";
+"UserNameHasWhitespaceSuffix" = "The username cannot end with a space.";
+"UserNameContainsIlleagalCharacters" = "The username can only conatain lower- and upper case characters, numbers and spaces.";
+"UserNameIsTooLong" = "The username is too long. It must conain less characters";
+"EmailNil" = "You must enter an e-mail address.";
+"EmailInvalid" = "The e-mail address is not valid.";
+"EmailEmptyOrNil" = "Please enter your e-mail address.";
+"PasswordEmptyOrNil" = "Please enter your desired password.";
+"PasswordTooShort" = "Your password has to be at least 6 characters long.";
+"PasswordVerificationEmptyOrNil" = "Please provide the password verification!";
+"PasswordsDontMatch" = "Your given password and password verification don’t match.";
+"UserNameTaken" = "Your desired username is already taken.";
+"EmailTaken" = "Your given e-mail address is already taken.";
+"NoInternetConnection" = "It appears you’re not connected to the internet, please configure connectivity.";
+"ConnectionTimeOut" = "It appears you’re internet connection is too slow for the application to function properly.";
+"GeneralError" = "Error during the registration.";
+
+/********************************
+ MISC
+ *******************************/
+
+"anonymous" = "anonymous";
+"nopassword" = "nopassword";
